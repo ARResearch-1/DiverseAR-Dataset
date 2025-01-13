@@ -1,5 +1,5 @@
 # DiverseAR Datasets
-This repository accompanies the workshop paper "_Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble_", submitted to GenAI-XR 2025. It introduces **DiverseAR**, a dataset of 318 images collected from two commercial AR platforms (Amazon and Scaniverse), three AR applications (HoloLens) previously developed by our lab, and two AR applications (Apple Vision Pro and Android) specifically created for this project. 
+This repository accompanies the workshop paper "_Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble_", submitted to GenAI-XR 2025. It introduces **DiverseAR**, a dataset of 318 images collected from two commercial AR platforms (Amazon and Scaniverse), three AR applications (HoloLens, Magic Leap, Android) previously developed by our lab, and two AR applications (Apple Vision Pro and Android) specifically created for this project. 
 
 # Dataset
 The full DiverseAR dataset can be downloaded here: [https://duke.box.com/s/axx8v30a16goy7kozway1mhv1up9jcox](https://duke.box.com/s/axx8v30a16goy7kozway1mhv1up9jcox) The dataset follows the hierarchical file structure shown below:
