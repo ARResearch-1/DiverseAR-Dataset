@@ -2,36 +2,18 @@
 This repository accompanies the workshop paper "_Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble_", submitted to GenAI-XR 2025. It introduces **DiverseAR**, a dataset of 318 images collected from two commercial AR platforms (Amazon and Scaniverse), three AR applications (HoloLens, Magic Leap, Android) previously developed by our lab, and two AR applications (Apple Vision Pro and Android) specifically created for this project. 
 
 # Dataset
-The full DiverseAR dataset can be downloaded here: [https://duke.box.com/s/axx8v30a16goy7kozway1mhv1up9jcox](https://duke.box.com/s/axx8v30a16goy7kozway1mhv1up9jcox) The dataset follows the hierarchical file structure shown below:
+The full DiverseAR dataset can be downloaded here: [https://duke.box.com/s/kdh4ns4ep2a3sjde05prk0hik0juzz9f](https://duke.box.com/s/kdh4ns4ep2a3sjde05prk0hik0juzz9f) The dataset follows the hierarchical file structure shown below:
 ```
-images
-└───android
+DiverseAR_dataset
+└───images
 │   │
-│   └───Screenhot_202412xx-xxxxxx.png
+│   └───image_1.png
+│   └───image_2.png
 │   ...
-└───scaniverse
-│   │
-│   └───IMG_xxxx.PNG
-│   ...
-└───lab
-│   │
-│   └───image (x).png
-│   ...
-└───avp
-│   │
-│   └───IMG_xxxx.PNG
-│   ...
-└───amazon
-│   │
-│   └───IMG_xxxx.PNG
-│   ...
-└───website
-│   │
-│   └───Screenhot 2024-12-xx at xx.xx.xx.png
-│   ...
+└───DiverseAR_annotation.csv
 ```
 
-A portion of the unaugmented raw data is available for download here: [https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg](https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg)
+DiverseAR_annotation.csv contains the columns ["image_name", "AR/NonAR", "source", "complexity_level"], which represent the image name, whether the image is an AR or Non-AR image, the source platform, and the complexity level, respectively. A portion of the unaugmented raw data is available for download here: [https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg](https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg)
 
 _Creation:_ To evaluate the AR scene understanding capabilities of VLMs, we curated the DiverseAR dataset, specifically designed to capture a broad spectrum of AR scenarios. The dataset consists of **298 AR images** collected from diverse sources and environments. It includes 23 images captured using a custom-developed Apple Vision Pro AR application in laboratory and kitchen environments, and 151 images collected from a custom-developed Android AR application in bedroom and dining room environments. Additionally, 42 images were created in-house to explore AR-specific research topics, such as attention patterns, task-detrimental virtual content arrangements, and AR applications in surgical guidance. The dataset also features 7 images of glass objects obtained from the Amazon app's AR View, and 46 images collected from the Scaniverse app's AR View, captured in laboratory, kitchen, and dining room environments. Finally, 29 images were sourced from a website showcasing AR advertisement videos. Additionally, we included **20 non-AR images** to supplement the dataset. This comprehensive collection ensures the DiverseAR dataset supports robust analysis of AR scene understanding. 
 
@@ -41,9 +23,6 @@ _Details:_ The DiverseAR dataset encompasses a wide spectrum of AR and non-AR sc
 
 <p align="center"><img width="407" alt="Examples of key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/BiGuideCollection/DiverseAR-Dataset/blob/main/readme_image/DiverseAR.png"></p>
 <p align="center">Figure 1. Examples of key characteristics of the virtual and real objects in the DiverseAR dataset.</p> 
-
-
-The three AR scene difficulty levels are labeled in the labeled_images.csv file.
 
 # Acknowledgements 
 
