@@ -24,6 +24,19 @@ _Details:_ The DiverseAR dataset encompasses a wide spectrum of AR and non-AR sc
 <p align="center"><img width="407" alt="Examples of key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/BiGuideCollection/DiverseAR-Dataset/blob/main/readme_image/DiverseAR.png"></p>
 <p align="center">Figure 1. Examples of key characteristics of the virtual and real objects in the DiverseAR dataset.</p> 
 
+# Citation
+
+If you use DiverseAR dataset in an academic work, please cite: 
+
+```
+@inproceedings{DiverseAR,
+  title={Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble},
+  author={Duan, Lin, and Xiu, Yanming and Gorlatova, Maria},
+  booktitle={Proceedings of IEEE VR GenXR Workshop 2025},
+  year={2025}
+ }
+ ```
+
 # Acknowledgements 
 
 The authors of this repository are Lin Duan, Yanming Xiu and Maria Gorlatova. Contact information of the authors:
