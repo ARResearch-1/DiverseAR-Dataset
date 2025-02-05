@@ -1,5 +1,5 @@
 # DiverseAR Dataset
-This repository accompanies the workshop paper "_Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble_", accepted by GenAI-XR 2025. It introduces **DiverseAR**, a dataset of 318 images collected from a public website (DeepAR), two commercial AR platforms (Amazon and Scaniverse), three AR applications previously developed by our lab running on Magic Leap, Android, and HoloLens, and two AR applications specifically created for this project running on Apple Vision Pro and Android.
+This repository accompanies the workshop paper ["_Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble_"](https://arxiv.org/abs/2501.13964), to appear at GenAI-XR 2025. It introduces **DiverseAR**, a dataset of 318 images collected from a public website (DeepAR), two commercial AR platforms (Amazon and Scaniverse), three AR applications previously developed by our lab running on Magic Leap, Android, and HoloLens, and two AR applications specifically created for this project running on Apple Vision Pro and Android.
 
 ## Outline:
 * [Motivation and Collection Process](#1)
@@ -58,9 +58,9 @@ If you use DiverseAR dataset in an academic work, please cite:
 
 ```
 @inproceedings{DiverseAR,
-  title={Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble},
+  title={Advancing the Understanding and Evaluation of {AR}-Generated Scenes: When Vision-Language Models Shine and Stumble},
   author={Duan, Lin, and Xiu, Yanming and Gorlatova, Maria},
-  booktitle={Proceedings of IEEE VR GenAI-XR 2025},
+  booktitle={Proceedings of IEEE VR GenAI-XR},
   year={2025}
  }
  ```
