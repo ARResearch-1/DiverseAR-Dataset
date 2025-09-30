@@ -49,8 +49,7 @@ DiverseAR_dataset
 DiverseAR_annotation.csv contains the columns ["**image_name**", "**AR/NonAR**", "**source**", "**complexity_level**"], which represent the image name, whether the image is an AR or Non-AR image, the source platform, and the complexity level, respectively.
 
 ## 5. <span id="5"> Dataset Download</span> 
-+ The full DiverseAR dataset can be downloaded here: [https://duke.box.com/s/kdh4ns4ep2a3sjde05prk0hik0juzz9f](https://duke.box.com/s/kdh4ns4ep2a3sjde05prk0hik0juzz9f).
-+ A portion of the unaugmented raw data is available for download here: [https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg](https://duke.box.com/s/915pors2tn4dtrazfjesd2k7vm73b8eg)
++ The full DiverseAR dataset can be downloaded here: [https://duke.box.com/s/nmg8w3bu83t4rym1974yx5k443pu7e7r](https://duke.box.com/s/nmg8w3bu83t4rym1974yx5k443pu7e7r).
 
 ## 6. <span id="6"> Citation</span>
 
