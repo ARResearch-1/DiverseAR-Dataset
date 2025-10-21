@@ -18,9 +18,9 @@ To evaluate the AR scene understanding capabilities of VLMs, we curated the Dive
 ## 2. <span id="2"> Dataset Composition</span>
 The DiverseAR dataset encompasses a wide spectrum of AR and non-AR scenarios, showcasing diverse characteristics of both virtual and real-world content. **Table 1** summarizes the key characteristics represented in the dataset, while **Figure 1** illustrates representative examples of these characteristics. The dataset includes single or multiple instances of identical and varied real and virtual objects across various AR images. These objects span numerous classes, including **toys, food, shoes, plants, laptops, containers, etc**.
 
-<p align="center"><img width="1000" alt="Key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/BiGuideCollection/DiverseAR-Dataset/blob/main/readme_image/DiverseARtable.png"></p>
+<p align="center"><img width="1000" alt="Key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/ARResearch-1/DiverseAR-Dataset/blob/main/readme_image/DiverseARtable.png"></p>
 
-<p align="center"><img width="407" alt="Examples of key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/BiGuideCollection/DiverseAR-Dataset/blob/main/readme_image/DiverseAR.png"></p>
+<p align="center"><img width="407" alt="Examples of key characteristics of the virtual and real objects in the DiverseAR dataset." src="https://github.com/ARResearch-1/DiverseAR-Dataset/blob/main/readme_image/DiverseAR.png"></p>
 <p align="center">Figure 1. Examples of key characteristics of the virtual and real objects in the DiverseAR dataset.</p> 
 
 ## 3. <span id="3"> Classification of AR Scene Complexity Levels</span>
